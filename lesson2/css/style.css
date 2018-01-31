@@ -1,0 +1,108 @@
+body{
+    background-color: #fff;
+    margin: 0px;
+}
+header{
+    height: 60px;
+    border-bottom: solid 1px #333;
+    padding-left: 95px;
+    padding-right: 95px;
+}
+a, a:hover, a:active, a:visited {
+    text-decoration: none;
+    color: #000;
+    transition: all 0.2s ease;
+}
+a:hover{
+    /*font-size: 17px;*/
+}
+button:focus button:active{
+    outline: none;
+}
+ul {
+    padding-left: 0;
+}
+header a{
+    float:left;
+}
+header .logo{
+    float: left;
+}
+header .logo .title{
+    font-size: 36px;
+    color: #455A64;
+    float: left;
+    margin: 0;
+}
+header a:hover .logo .title{
+    font-size: 37px;
+    float: left;
+}
+header .logo .span{
+    float: left;
+}
+
+header a{
+    float: left;
+    margin-right: 70px;
+}
+
+header ul{
+    float: right;
+    width: 184px;
+    height: 40px;
+    margin-top: 10px;
+}
+header ul li{
+    list-style: none;
+}
+header ul li button{
+    float: left;
+    width: 87px;
+    height: 40px;
+    background-color: #CFD8DC;
+    border-radius: 20px;
+}
+header ul li:first-child button{
+    background-color: #FFAB00;
+    color:  #ffffff;
+    margin-right: 10px;
+}
+header ul li:last-child button{
+    color: #607d8b;
+}
+header ul li button:hover{
+    font-size: 14px;
+}
+header ul li:last-child button:hover{
+    background-color: #ffab00;
+    color: white;
+}
+
+header nav{
+    float: left;
+    height: 40px;
+    margin-top: 10px;
+}
+header nav a{
+    font-family: sans-serif;
+    margin-right: 15px;
+}
+header nav a:hover{
+     color: #ffab00;
+}
+header nav a:focus{
+    text-decoration: line-through;
+}
+
+section{
+    border-bottom: solid 1px red;
+}
+
+section [name="services"],
+section[name="apps"]{
+    height: 300px;
+}
+
+
+
