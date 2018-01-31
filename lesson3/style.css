@@ -1,0 +1,31 @@
+.first{
+    padding: 0;
+    height: 200px;
+    width: 500px;
+    border: solid 10px #1c4587;
+    background-color: #45818e;
+}
+
+.second{
+    padding: 50px;
+    width: 500px;
+    height: 200px;
+    border: solid 30px #e06666;
+    background-color: #93c47d;
+}
+
+.box{
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.box{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.box{
+    -moz-box-sizing: padding-box;
+}
