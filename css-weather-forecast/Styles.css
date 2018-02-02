@@ -42,6 +42,7 @@ li{
     text-align: center;
 }
 i{
+    display: inline-block;
     font-size: 30px;
     vertical-align: middle;
 }
