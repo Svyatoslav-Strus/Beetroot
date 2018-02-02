@@ -47,13 +47,15 @@ i{
 }
 .title{
     opacity: 0.9;
-    margin: 20px;
+    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 span{
     vertical-align: middle;
 }
 .value{
-    margin: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
     opacity: 0.7;
     vertical-align: middle;
 }
