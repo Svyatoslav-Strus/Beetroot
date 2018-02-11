@@ -2,18 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
     <title>Foliac</title>
 </head>
 <body>
     <section class="container-full" id="hero">
         <div class="container">
             <header>
-
+                <div class="header__logo">
+                    <a href="#" class="logo"></a>
+                </div>
+                <ul class="header__menu">
+                    <a href="#"> <li class="menu__item">Accuel</li></a>
+                    <a href="portfolio"> <li class="menu__item">Portfolio</li></a>
+                    <a href="about"> <li class="menu__item">About</li></a>
+                    <a href="contacts"> <li class="menu__item">Contact</li></a>
+                </ul>
             </header>
+            <div class="container__description">
+                <h2 class="description__title">voici votre prochain portfolio</h2>
+                <p class="description__text">un template psd simple et gratui</p>
+                <button type="button" class="cta description__cta">Mes travaux</button>
+            </div>
         </div>
-
     </section>
     <section class="container-full" id="portfolio">
         <div class="container">
@@ -26,7 +39,7 @@
         </div>
     </section>
     <footer>
-        <div class="container">
+        <div class="container" id="contacts">
 
         </div>
     </footer>
