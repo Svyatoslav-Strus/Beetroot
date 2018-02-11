@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'HansKendrick-Regular';
+    src:  url('../fonts/HansKendrick/HansKendrick-Regular.otf')  format('opentype'),
+    url('../fonts/HansKendrick/HansKendrick-Regular.woff') format('woff'),
+    url('../fonts/HansKendrick/HansKendrick-Regular.ttf')  format('truetype'),
+    url('../fonts/HansKendrick/HansKendrick-Regular.svg#HansKendrick-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin:0;
+    box-sizing:border-box;
+}
+a{
+    text-decoration:none;
+}
+a,a:focus,a:active,a:visited{
+    color:#000;
+}
+body{
+    font-size:100%;
+}
