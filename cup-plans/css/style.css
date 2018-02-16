@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'misoregular';
+    src: url('../fonts/miso-regular/miso-regular-webfont.woff2') format('woff2'),
+    url('../fonts/miso-regular/miso-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'misobold';
+    src: url('../fonts/miso-bold/miso-bold-webfont.woff2') format('woff2'),
+    url('../fonts/miso-bold/miso-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*, *:after, *:before{
+    box-sizing: border-box;
+}
+html,body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcdd7f;
+    height: 100vh;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    height: 600px;
+    padding: 15px;
+    border: 1px solid black;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffffff;
+    min-width: 360px;
+    box-shadow: 1px 0px 2px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+.section-bronze, .section-silver {
+    min-height: 441px;
+    margin: 10px;
+    padding: 12px;
+}
+.section-gold {
+    min-height: 500px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.price {
+    font-family: misobold, Arial, sans-serif;
+    font-size: 70px;
+    color: #02995b;
+    letter-spacing: 1.75px;
+}
+
+.image {
+    background: no-repeat center;
+    width: 135px;
+    height: 134px;
+    padding: 0px;
+    margin: 0px;
+}
+.image-bronze {
+    background-image: url("../img/cup-bronze.png");
+}
+.image-gold {
+    background-image: url("../img/cup-gold.png");
+}
+.image-silver {
+    background-image: url("../img/cup-silver.png");
+}
+
+.description {
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 156px;
+    min-height: 116px;
+    padding-bottom: 10px;
+}
+.title {
+    font-family: misoregular, Arial, sans-serif;
+    font-size: 56px;
+    line-height: 44px;
+}
+.text {
+    font-family: Lato, Arial, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    line-height: 24px;
+}
+
