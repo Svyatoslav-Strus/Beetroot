@@ -19,4 +19,114 @@ a,a:focus,a:active,a:visited{
 }
 body{
     font-size:100%;
+    font-family:'HansKendrick-Regular', Arial, sans-serif;
+}
+main{
+    display:flex;
+    flex-wrap:wrap;
+    background-color:#e2e7ec;
+    width:100%;
+    min-height:100vh;
+    justify-content:space-between;
+    padding:50px;
+}
+
+/*BLOG POST*/
+
+.blog-post{
+    min-height:542px;
+    margin-right:20px;
+    margin-bottom:20px;
+    background-color:#fff;
+    display: flex;
+    flex-direction: column;
+}
+.blog-post:nth-child(1){
+    flex-basis:calc(66.67% - 20px);
+    flex-grow:2;
+}
+.blog-post:nth-child(2){
+    flex-grow:1;
+    flex-basis:calc(33.33% - 20px) ;
+    margin-right:0;
+}
+.blog-post:nth-child(5){
+    margin-right:0;
+}
+.blog-post:nth-child(3),
+.blog-post:nth-child(4),
+.blog-post:nth-child(5){
+    flex:1;
+}
+
+/*INFO WRAPPER*/
+
+.info-wrapper{
+    flex:1;
+    padding:25px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+/*IMAGES*/
+
+.blog-post-img{
+    background: url('./../img/1.png') no-repeat center;
+    background-size:cover;
+    min-height:542px;
+    display: flex;
+}
+.blog-post-img .text-wrapper{
+    padding:25px;
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    flex:1;
+}
+.blog-post-img .post-title{
+    font-size:30px;
+    color:#fff;
+    font-weight:900;
+    text-transform:uppercase;
+    letter-spacing:1.2px;
+    max-width:70%;
+}
+.post-img{
+    background: no-repeat center;
+    background-size:cover;
+    min-height:254px;
+    width:100%;
+}
+.blog-post:nth-child(2) .post-img{ background-image:url('./../img/2.png');}
+.blog-post:nth-child(3) .post-img{ background-image:url('./../img/3.png');}
+.blog-post:nth-child(4) .post-img{ background-image:url('./../img/4.png');}
+.blog-post:nth-child(5) .post-img{ background-image:url('./../img/5.png');}
+.post-author{
+    background: url('./../img/6.png') no-repeat center;
+    border-radius:27.5px;
+    height:55px;
+    width:55px;
+}
+
+/*DATE*/
+
+.post-date{
+    display:inline-block;
+    font-size:13px;
+    color:#818181;
+    font-weight:normal;
+    text-transform:uppercase;
+    letter-spacing:1.2px;
+    margin-bottom:20px;
+}
+
+/*Title*/
+
+.post-title{
+    font-size:22px;
+    color:#1d1d1d;
+    font-weight:900;
+    text-transform:uppercase;
+    letter-spacing:1.2px;
 }
