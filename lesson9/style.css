@@ -1,0 +1,30 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+[class*="ba-width-"] {
+    float: left;
+    height: 25px;
+    margin-left: 20px;
+    background-color: #2b81ac;
+}
+.ba-grid {
+    padding-left: -20px;
+    padding-right: 20px;
+}
+.ba-grid + .ba-grid {
+    margin-top: 20px;
+}
+
+.ba-width-1 {
+    width: 100%;
+    text-align: center;
+}
+.ba-width-1-2 {
+    width: 50%;
+    text-align: center;
+}
+.ba-width-1-3 {
+    width: 33.33%;
+    text-align: center;
+}
