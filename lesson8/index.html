@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Payment form</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <body>
+    <div class="container">
+        <form name="payment-form" action="">
+            <div class="form__header">
+                <div class="text__wrapper">
+                    <span class="user__name">Harold Finch</span>
+                    <span>Your Total</span>
+                </div>
+                <div class="amount__wrapper">$88</div>
+            </div>
+            <div class="fieldset">
+                <label for="">Credit card number</label>
+                <input type="text" name="cc__number" placeholder="xxxx-xxxx-xxxx-xxxx" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}">
+                <label for="">Expiration date</label>
+                <input type="text" name="">
+                <select name="cc--exp__month">
+                    <option value="">March</option>
+                    <option value="">April</option>
+                    <option value="">May</option>
+                    <option value="">June</option>
+                </select>
+                <select name="cc--exp__year">
+                    <option value="">2020</option>
+                    <option value="">2021</option>
+                    <option value="">2022</option>
+                    <option value="">2023</option>
+                </select>
+                <label for="">CVV</label>
+                <input type="text">
+                <p>
+                    3 or 4 digits - <a href="#">view example</a>
+                </p>
+            </div >
+            <button type="submit" value="Pay">Pay</button>
+                <a href="">Cancel order </a>
+        </form>
+    </div>
+    <body>
+</html>

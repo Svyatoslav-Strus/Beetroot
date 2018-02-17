@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+body {
+    background-color: white;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    background: url("img/unsplash.png") no-repeat center;
+    background-size: cover;
+}
+
+form {
+    width: 336px;
+    height: ;
+    background-color: #ffffff;
+
+}
+
+.form__header{
+    height: 72px;
+    background-color: #f8edaf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+
+.text__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.text__wrapper span {
+    font-size: 10px;
+    font-weight: normal;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #a6a28d;
+}
+
+.text__wrapper span.user__name {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    color: #6e7f7b;
+    text-transform: none;
+}
+.amount__wrapper {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -1.8px;
+    text-align: left;
+    color: #637570;
+}
+
+.fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px;
+    justify-content: space-evenly;
+    height: 325px;
+}
+
+label {
+    font-size: 13px;
+    font-weight: normal;
+    text-align: left;
+    color: #9eabad;
+}
+input  {
+    width: 100%;
+    height: 44px;
+    background-color: #ffffff;
+    border: solid 2px #82d4e7;
+}
+
+input[name="cc__number"] {
+    font-size: 13px;
+    font-weight: normal;
+    text-align: left;
+    color: #727f82;
+    text-indent: 20px;
+}
